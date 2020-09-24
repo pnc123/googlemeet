@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+ 
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}   .item2,.item4{height: 447px; } a{text-decoration-line: none; color: black;}   
+</style>
+</head>
+<body>
+
+ 
+<div class="grid-container">
+  <div class="item1">Google Meet</div>
+  <div class="item2"><div><p><a href="index.html">Home</a></p></div><hr> <div><img src="wifi.jpg" style="max-width: 40px;"><a href="wifi.html" style="padding-left: 20px;">Wifi</a></div><br><div><img src="exam.jpg" style="max-width: 30px;"><a href="exam.html" style="padding-left: 20px;">Exam</a></div><br><div><img src="assignment.jpg" style="max-width: 30px;"><a href="assignment.html" style="padding-left: 20px;">Assignment</a></div><br><div><img src="wifi.jpg" style="max-width: 40px;"><a href="notes.html" style="padding-left: 20px;">Notes</a></div><br><div><img src="quetion.jpg" style="max-width: 40px;"><a href="quetion.html" style="padding-left: 20px;">Quetion</a></div><br></div>
+  <div class="item3"><div><img src="gmroom.jpg" style="max-width: 300px; "></div><hr><div><br><br> <img src="system.png" class="img"style="max-width: 200px; "></div></div> 
+
+   
+<div class="item4"> 
+
+  <a href="p1.html"><div style="background-color: green;"><img src="p1.jpg" style="max-width: 90px; border-radius: 50%; float:left; padding-left: 4px; "> <p>Praveen Sanpada(you)</p><p>Section B</p></div></a><hr>
+
+  <a href="r.html"><div style="background-color: green;"><img src="r.jpg" style="max-width: 100px; border-radius: 50%; float:left; padding-left: 4px; "> <p>Rohit Sharma</p><p>Section A</p></div></a>
+
+  <a href="d.html"><div style="background-color: green;"><img src="d.jpg" style="max-width: 100px; border-radius: 50%; float:left; padding-left: 4px; "> <p>MS Dhoni</p><p>Section B</p></div></a>
+</div>
+   
+</div>
+
+</body>
+</html>
